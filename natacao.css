@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Permanent+Marker&family=Sora:wght@100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #0C134D;
+}
+
+header {
+    background-color: #3a26eb;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    gap: 20px;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#titulo p {
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#titulo img {
+    width: 90px;
+    margin-top: 25px;
+}
+
+#navegacao nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#navegacao nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    transition: all 0.5s ease;
+    gap: 10px;
+}
+
+#navegacao nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+.esportes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    gap: 3px;
+}
+
+#redessociais nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#redessociais nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    transition: all 0.5s ease;
+}
+
+#redessociais i {
+    color: black;
+}
+
+#redessocias nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2px;
+}
+
+#contatos nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#contatos nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    transition: all 0.5s ease;
+}
+
+#contatos nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
+.conteudo-central {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Para centralizar verticalmente */
+}
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0 1rem;
+    color: #ffffff;
+    align-items: flex-start; /* Para alinhar o texto à esquerda */
+    margin-left: 40px;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: column; /* Pode ser row, se você quiser mais flexibilidade */
+    align-items: center; /* Alinha a imagem ao centro horizontalmente */
+    overflow: hidden; /* Evita que a imagem expanda o contêiner */
+}
+
+.imagem img {
+    width: 500px; /* Defina o tamanho desejado */
+    height: auto; /* Mantém a proporção */
+}
+
+
+
+#botao {
+    display: flex;
+    justify-content: center; /* Centraliza o botão */
+    margin: 2rem 0; /* Margem superior e inferior */
+}
+
+#botao button {
+    color: #ffffff;
+    background-color: #0C134D;
+    height: 60px;
+    width: 300px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+}
+
+#botao button:hover {
+    background-color: #3a26eb;
+    color: #161427;
+}
